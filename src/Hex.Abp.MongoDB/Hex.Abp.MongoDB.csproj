@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Hex.Abp</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>HuoEx</Authors>
+    <RepositoryUrl>https://github.com/huoerhang/Hex.Aspnetboilerplate</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/huoerhang/Hex.Aspnetboilerplate</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="4.4.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MongoDB\Repositories\" />
+  </ItemGroup>
+
+</Project>
